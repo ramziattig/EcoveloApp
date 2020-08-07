@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".ScanActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:id="@+id/img"
+        android:visibility="gone"
+        android:src="@drawable/ecovelo"
+        android:layout_height="150dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="picker"
+        android:id="@+id/pickerbtn"
+        android:textColor="#fff"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="QR code"
+        android:id="@+id/hellobtn"
+        android:textColor="#fff"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:id="@+id/images"
+        android:visibility="gone"
+        android:src="@drawable/ecovelo"
+        android:layout_height="150dp"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/ecovelo"
+        android:layout_height="200dp"/>
+
+
+    <Button
+        android:layout_width="240dp"
+        android:text="get started"
+        android:textSize="20sp"
+        android:id="@+id/btnstart"
+        android:textColor="#fff"
+        android:background="@drawable/buttom_custom"
+        android:layout_marginTop="59dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
